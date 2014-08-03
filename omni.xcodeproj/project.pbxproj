@@ -12,6 +12,8 @@
 		4C1685EB198E0166000764EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1685E9198E0166000764EB /* Main.storyboard */; };
 		4C1685ED198E0166000764EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1685EC198E0166000764EB /* Images.xcassets */; };
 		4C1685F9198E0166000764EB /* omniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1685F8198E0166000764EB /* omniTests.swift */; };
+		4C168603198E032E000764EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C168602198E032E000764EB /* Foundation.framework */; };
+		4C168605198E0349000764EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C168604198E0349000764EB /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		4C1685F2198E0166000764EB /* omniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1685F7198E0166000764EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C1685F8198E0166000764EB /* omniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omniTests.swift; sourceTree = "<group>"; };
+		4C168602198E032E000764EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C168604198E0349000764EB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C168605198E0349000764EB /* CoreLocation.framework in Frameworks */,
+				4C168603198E032E000764EB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +63,8 @@
 		4C1685D7198E0166000764EB = {
 			isa = PBXGroup;
 			children = (
+				4C168604198E0349000764EB /* CoreLocation.framework */,
+				4C168602198E032E000764EB /* Foundation.framework */,
 				4C1685E2198E0166000764EB /* omni */,
 				4C1685F5198E0166000764EB /* omniTests */,
 				4C1685E1198E0166000764EB /* Products */,
